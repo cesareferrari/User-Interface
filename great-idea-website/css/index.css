@@ -105,3 +105,45 @@ header nav a:first-child {
   top: 5px;
   right: 0;
 }
+
+.headline {
+  display: inline-block;
+  padding: 90px 0 70px;
+  margin-left: 90px;
+}
+
+.headline h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+
+.cover {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 50px 0;
+}
+
+.cover img {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
