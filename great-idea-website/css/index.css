@@ -64,3 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+  width: 1024px;
+  margin: auto;
+  border: 1px solid red;
+  padding: 20px 76px;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+}
+
+header nav a {
+  display: inline-block;
+  margin: 0 32px;
+  color: #c4bebe;
+  text-decoration: none;
+  padding: 16px 0;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 0px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
