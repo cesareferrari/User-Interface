@@ -85,16 +85,18 @@ nav {
 
 header nav a {
   display: inline-block;
-  margin: 0 32px;
+  margin: 10px 20px;
   color: #c4bebe;
   text-decoration: none;
-  padding: 16px 0;
+  padding: 10px 10px;
   overflow: hidden;
   font-size: 15px;
+  border-radius: 6px;
 }
 
 header nav a:hover {
-  color: black;
+  color: white;
+  background-color: black;
 }
 
 header nav a:first-child {
