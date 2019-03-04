@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+p {
+  line-height: 1.2em;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 76px;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+}
+
+header nav a {
+  display: inline-block;
+  margin: 10px 20px;
+  color: #c4bebe;
+  text-decoration: none;
+  padding: 10px 10px;
+  overflow: hidden;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+header nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 0px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.headline {
+  display: inline-block;
+  padding: 90px 0 70px;
+  margin-left: 90px;
+}
+
+.headline h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+
+.cover {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 50px 0 40px;
+}
+
+.cover img {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+  width: 160px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+.col2 div {
+  width: 49%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.col2 div:last-child {
+  margin-right: 0;
+}
+
+.middle-img {
+  display: block;
+  margin: 40px auto;
+}
+
+.col3 div {
+  width: 32%;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.col3 div:last-child {
+  margin-right: 0;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: 1px solid black;
+}
+
+footer p {
+  margin-bottom: 16px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+}
